@@ -43,6 +43,7 @@ A forward proxy sits in front of clients and is used to get data to groups of us
 A forward proxy is best suited for internal networks that need a single point of entry. It provides IP address security for those in the network and allows for straightforward administrative control. However, a forward proxy may limit an organization’s ability to cater to the needs of individual end-users.
 
 - Reverse Proxy:
+![reverse_proxy_flow](https://user-images.githubusercontent.com/64466106/235982158-c3326963-a68a-4492-a9f7-8fbfcab0caf3.png)
 
 Unlike a forward proxy, which sits in front of clients, a reverse proxy is positioned in front of web servers and forwards requests from a browser to the web servers. It works by intercepting requests from the user at the network edge of the web server. It then sends the requests to and receives replies from the origin server.
 
