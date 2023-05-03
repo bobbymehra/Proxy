@@ -14,3 +14,4 @@ A proxy server is basically a computer on the internet with its own IP address t
 When the proxy server forwards your web requests, it can make changes to the data you send and still get you the information that you expect to see. A proxy server can change your IP address, so the web server doesn’t know exactly where you are in the world. It can encrypt your data, so your data is unreadable in transit. And lastly, a proxy server can block access to certain web pages, based on IP address.
 
 # Why Should You Use a Proxy Server?
+# Types of Proxy Servers
