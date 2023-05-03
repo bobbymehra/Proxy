@@ -54,11 +54,14 @@ Reverse proxies are a strong option for popular websites that need to balance th
 
 - Transparent Proxy:
 
+![transparent-proxy](https://user-images.githubusercontent.com/64466106/235984428-bf803b1f-57d2-4162-a569-e7e31a187477.jpeg)
+
 A transparent proxy can give users an experience identical to what they would have if they were using their home computer. In that way, it is “transparent.” They can also be “forced” on users, meaning they are connected without knowing it.
 
 Transparent proxies are well-suited for companies that want to make use of a proxy without making employees aware they are using one. It carries the advantage of providing a seamless user experience. On the other hand, transparent proxies are more susceptible to certain security threats, such as SYN-flood denial-of-service attacks.
 
 - Anonymous Proxy:
+
 
 An anonymous proxy focuses on making internet activity untraceable. It works by accessing the internet on behalf of the user while hiding their identity and computer information.
 
