@@ -37,6 +37,7 @@ Proxy servers allow users to circumvent content restrictions imposed by companie
 While all proxy servers give users an alternate address with which to use the internet, there are several different kinds—each with its own features. Understanding the details behind the list of proxy types will help you make a choice based on your use case and specific needs.
 
 - Forward Proxy:
+![forward-proxy-flow](https://user-images.githubusercontent.com/64466106/235983350-845659d6-51e5-4428-b38b-6eecd0620276.jpeg)
 
 A forward proxy sits in front of clients and is used to get data to groups of users within an internal network. When a request is sent, the proxy server examines it to decide whether it should proceed with making a connection.
 
