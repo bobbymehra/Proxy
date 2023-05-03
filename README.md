@@ -37,6 +37,7 @@ Proxy servers allow users to circumvent content restrictions imposed by companie
 While all proxy servers give users an alternate address with which to use the internet, there are several different kinds—each with its own features. Understanding the details behind the list of proxy types will help you make a choice based on your use case and specific needs.
 
 - Forward Proxy:
+
 ![forward-proxy-flow](https://user-images.githubusercontent.com/64466106/235983350-845659d6-51e5-4428-b38b-6eecd0620276.jpeg)
 
 A forward proxy sits in front of clients and is used to get data to groups of users within an internal network. When a request is sent, the proxy server examines it to decide whether it should proceed with making a connection.
@@ -44,6 +45,7 @@ A forward proxy sits in front of clients and is used to get data to groups of us
 A forward proxy is best suited for internal networks that need a single point of entry. It provides IP address security for those in the network and allows for straightforward administrative control. However, a forward proxy may limit an organization’s ability to cater to the needs of individual end-users.
 
 - Reverse Proxy:
+
 ![reverse_proxy_flow](https://user-images.githubusercontent.com/64466106/235982158-c3326963-a68a-4492-a9f7-8fbfcab0caf3.png)
 
 Unlike a forward proxy, which sits in front of clients, a reverse proxy is positioned in front of web servers and forwards requests from a browser to the web servers. It works by intercepting requests from the user at the network edge of the web server. It then sends the requests to and receives replies from the origin server.
