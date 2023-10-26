@@ -1,0 +1,32 @@
+# Cinfigure Forward Proxy
+
+1. Configured a local web server on the system:
+
+$ dnf install http
+$ vi /var/www/html/index.html    // specify any thing in the index file "Hello World"
+$ cp /usr/share/doc/httpd/httpd-vhosts.conf /etc/httpd/conf.d/one.conf  
+$ vi /etc/httpd/conf.d/one.conf  // add below section in the file.
+~~~
+<VirtualHost *:80>
+    ServerAdmin webmaster@server1.example.com
+    DocumentRoot "/var/www/html"
+    ServerAlias server1.example.com
+</VirtualHost>
+
+<Directory /var/www/html>
+require all granted 
+</Directory>
+~~~
+
+$ httpd -t // check if the syntax is ok 
+$ systemctl restart httpd 
+$ systemctl start httpd 
+$ firewall-cmd --permanent --add-server=http  // add http in firewall
+$ firewall-cnd --reload 
+
+2. Install squid (proxy server):
+
+$ sudo dns install squid
+$ sudo systemctl start squid
+$ sudo systemctl enable squid 
+$ 
