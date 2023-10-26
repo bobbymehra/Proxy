@@ -29,4 +29,7 @@ $ firewall-cnd --reload
 $ sudo dns install squid
 $ sudo systemctl start squid
 $ sudo systemctl enable squid 
-$ 
+$ sudo netstat -tunlp                        // check on which port the proxy server is running
+$ sudo vim /etc/squid/squid.conf             // Edit squid.conf file to allow access to certain IP ranges.
+$ sudo vim /etc/squid/proxy-block-list.acl   // To block certain websites from being accessed add them to the proxy block list.
+
