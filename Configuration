@@ -33,6 +33,3 @@ $ sudo netstat -tunlp                        // check on which port the proxy se
 $ sudo vim /etc/squid/squid.conf             // Edit squid.conf file to allow access to certain IP ranges.
 $ sudo vim /etc/squid/proxy-block-list.acl   // To block certain websites from being accessed add them to the proxy block list.
 
-3. Now access the web server from any other system (server-2)
-4. Block the same system (server-2) from the proxy server using squid.conf and see if you are able to assess or not
-
